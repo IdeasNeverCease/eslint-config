@@ -30,7 +30,7 @@
   "main": "index.js",
   "name": "@inc/eslint-config",
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">=5"
   },
   "repository": {
     "type": "git",
@@ -41,5 +41,5 @@
     "test:dependencies": "updates -u ./",
     "test:lint": "standardx --verbose | snazzy"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
