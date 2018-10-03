@@ -1,0 +1,45 @@
+{
+  "author": {
+    "email": "paul@inc.sh",
+    "name": "Paul Anthony Webb"
+  },
+  "bugs": {
+    "url": "https://hub.socii.network/inc"
+  },
+  "description": "Recommended ESLint settings for !NC projects",
+  "devDependencies": {
+    "husky": "^1.1.0",
+    "npm-run-all": "^4.1.3",
+    "snazzy": "^8.0.0",
+    "standardx": "^3.0.1",
+    "updates": "^4.3.0"
+  },
+  "keywords": [
+    "es6",
+    "eslint",
+    "eslintconfig",
+    "lint"
+  ],
+  "homepage": "https://git.inc.sh/IdeasNeverCease/eslint-config",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test:lint"
+    }
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@inc/eslint-config",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.inc.sh/IdeasNeverCease/eslint-config.git"
+  },
+  "scripts": {
+    "test": "run-s test:*",
+    "test:dependencies": "updates -u ./",
+    "test:lint": "standardx --verbose | snazzy"
+  },
+  "version": "1.0.0"
+}
