@@ -1,10 +1,4 @@
-"use strict";
-
-
-
-//  E X P O R T
-
-module.exports = exports = { // TODO: Export `.eslintrc` here
+{
   "env": {
     "browser": true,
     "es6": true,
@@ -21,4 +15,4 @@ module.exports = exports = { // TODO: Export `.eslintrc` here
     "quotes": ["error", "double"],
     "semi": ["error", "always"]
   }
-};
+}
