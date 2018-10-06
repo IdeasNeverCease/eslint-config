@@ -18,7 +18,7 @@ module.exports = exports = { // TODO: Export `.eslintrc` here
   "rules": {
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "linebreak-style": ["error", "unix"],
-    "no-multiple-empty-lines": ["error", { "max": 3, "maxEOF": 1 }]
+    "no-multiple-empty-lines": ["error", { "max": 3, "maxEOF": 1 }],
     "quotes": ["error", "double"],
     "semi": ["error", "always"]
   }
