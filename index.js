@@ -42,7 +42,7 @@ module.exports = exports = { // TODO: Export `.eslintrc` here
     ],
     "space-before-function-paren": [
       "error",
-      { anonymous: "never", named: "never", asyncArrow: "never" }
+      { anonymous: "never", asyncArrow: "never", named: "never" }
     ],
     "space-in-parens": ["error", "never"],
     "space-infix-ops": "error",
