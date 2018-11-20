@@ -39,7 +39,7 @@ You can use [@inc/esnext](https://git.inc.sh/IdeasNeverCease/eslint-config/src/b
 
 ```
 {
-  "extends": "@inc/esnext"
+  "extends": "@inc/eslint-config/esnext"
 }
 ```
 
@@ -47,7 +47,7 @@ Or [@inc/browser](https://git.inc.sh/IdeasNeverCease/eslint-config/src/branch/ma
 
 ```
 {
-  "extends": "@inc/browser"
+  "extends": "@inc/eslint-config/browser"
 }
 ```
 
