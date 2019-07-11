@@ -22,6 +22,10 @@ module.exports = exports = {
       "error",
       "never"
     ],
+    curly: [
+      "error",
+      "multi-or-nest"
+    ],
     "newline-per-chained-call": [
       "error", {
         ignoreChainWithDepth: 2
@@ -31,6 +35,21 @@ module.exports = exports = {
       "error",
       2, {
         SwitchCase: 1
+      }
+    ],
+    "keyword-spacing": [
+      "error", {
+        overrides: {
+          catch: {
+            after: false
+          },
+          switch: {
+            after: false
+          },
+          while: {
+            after: false
+          }
+        }
       }
     ],
     "linebreak-style": [

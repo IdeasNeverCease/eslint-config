@@ -20,7 +20,7 @@ In your `.eslintrc` or `.eslintrc.json` file:
 
 ```js
 {
-  "extends": "@inc"
+  extends: "@inc"
 }
 ```
 

@@ -11,9 +11,9 @@ const path = require("path");
 //  E X P O R T
 
 module.exports = exports = {
-  extends: path.join(__dirname, "index.js"),
   env: {
     browser: true,
     node: false
-  }
+  },
+  extends: path.join(__dirname, "index.js")
 };
