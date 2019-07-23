@@ -1,6 +1,6 @@
 # eslint-config
 
-[![INC](https://img.shields.io/badge/%F0%9F%92%A1-IdeasNeverCease/eslint--config-51dcfb.svg?style=flat-square)](https://git.inc.sh/IdeasNeverCease/eslint-config)
+[![INC](https://img.shields.io/badge/%E2%9C%A8-IdeasNeverCease/eslint--config-51dcfb.svg?style=flat-square)](https://code.webb.page/IdeasNeverCease/eslint-config)
 
 > Recommended ESLint settings for !NC projects
 
@@ -35,7 +35,7 @@ Or in `package.json`:
 }
 ```
 
-You can use [@inc/esnext](https://git.inc.sh/IdeasNeverCease/eslint-config/src/branch/master/esnext.js) you are parsing ES2015+:
+You can use [@inc/esnext](https://code.webb.page/IdeasNeverCease/eslint-config/src/branch/master/esnext.js) you are parsing ES2015+:
 
 ```
 {
@@ -43,7 +43,7 @@ You can use [@inc/esnext](https://git.inc.sh/IdeasNeverCease/eslint-config/src/b
 }
 ```
 
-Or [@inc/browser](https://git.inc.sh/IdeasNeverCease/eslint-config/src/branch/master/browser.js) if you are in the browser:
+Or [@inc/browser](https://code.webb.page/IdeasNeverCease/eslint-config/src/branch/master/browser.js) if you are in the browser:
 
 ```
 {
