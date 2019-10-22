@@ -58,7 +58,9 @@ module.exports = exports = {
     ],
     "lines-between-class-members": [
       "error",
-      "always"
+      "always", {
+        exceptAfterSingleLine: true
+      }
     ],
     "no-multiple-empty-lines": [
       "error", {
